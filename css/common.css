@@ -8,7 +8,23 @@ a:hover{
     color: #009688;
 }
 body{
-    background-color: #eeeeee;
+    background: url(imgs/20200515120346.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    font-family: “Arial”,”Microsoft YaHei”,”黑体”,”宋体”,sans-serif;
+}
+#home{
+    margin: 0 auto;
+   opacity: 0.90;
+   width: 65%;
+   min-width: 1080px;
+   background-color: #fff;
+   padding: 30px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
 .row-align{
     display: flex;
@@ -32,7 +48,7 @@ body{
     box-shadow: 0px 0px 6px #cccccc;
 }
 .box-bg{
-    background-color: #139edf;
+    background-color: #ffffff;
     border-radius: 3px;
     padding: 20px;
 }
@@ -48,8 +64,9 @@ body{
     padding-bottom: 20px;
 }
 .pane-bg-radius{
-    background-color: #cabd05;
+    background-color: #ffffff;
     border-radius: 3px;
+    opacity: 0.9;
 }
 .pane-radius{
     border-radius: 3px;
@@ -61,6 +78,7 @@ body{
 .bottom-radius{
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+    opacity: 0.7;
 }
 .top-left-radius{
     border-top-left-radius: 3px;
@@ -149,6 +167,7 @@ body{
 }
 .nav-row{
     height: 50px;
+    opacity: 0.7;
 }
 .nav-menu{
     height: 50px;
@@ -188,6 +207,7 @@ body{
     height: auto;
     float: right;
     padding: 15px 0px;
+    opacity: 0.9;
 }
 .lunbo-textbox{
     height: 40px;
@@ -196,6 +216,7 @@ body{
     border-top-right-radius: unset;
     padding: 0px 20px;
     background-color: #1C2327;
+    opacity: 0.7;
 }
 .lunbo-textbox a:hover{
     color: #009688;
@@ -444,6 +465,7 @@ body{
     margin-top: 20px;
     height: auto;
     background-color: #ffffff;
+    opacity: 0.9;
 }
 .zonhe-ul-row{
     height: auto;
@@ -456,7 +478,8 @@ body{
 }
 .zonhe-libox{
     height: 150px;
-    background-color: #1C2327;
+    background-color: rgb(40, 43, 44);
+    opacity:0.9;
 }
 .zonhe-libox a:hover{
     color: #009688;
@@ -531,6 +554,7 @@ body{
 }
 .youqing-url{
     margin-top: 20px;
+    opacity: 0.9;
 }
 .url-box{
     height: 100px;
@@ -620,9 +644,14 @@ body{
     padding: 0px 24px;
     background-color: #ffffff;
     margin-bottom: 1px;
+    opacity: 0.9;
 }
 .page-box .layui-laypage-em{
-    background-color: #424242 !important;
+    background-color: #f5eeee !important;
+    opacity: 0.5;
+}
+.type-module{
+    opacity: 0.9;
 }
 .list-param-sort span{
     margin-left: 20px;
@@ -684,6 +713,7 @@ body{
 .article-content-box{
     padding: 16px;
     background-color: #ffffff;
+    opacity: 0.1;
 }
 .article-content-box h1{
     font-size: 20px;

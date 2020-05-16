@@ -1,0 +1,140 @@
+#home{position:relative;}
+div{background:rgba(0,0,0,0.001);}
+body{
+        background: url(imgs/ACG/20200515120346.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+        color: #000;
+        font-family: “Arial”,”Microsoft YaHei”,”黑体”,”宋体”,sans-serif;
+}
+nav{
+	background-color: transparent;
+	height:60px;
+	background: rgba(19, 18, 18, 0.6);
+        margin-bottom:200px;
+}
+#banner{
+	background-color: transparent;
+	height:715px;
+		margin-top:-120px;
+		right: 200px;
+}
+nav ul{
+	line-style:none;
+	margin: 0;
+	float: right;
+}
+nav ul li,nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+	padding:10px;
+}
+nav ul li a{
+	line-height: inherit;/*继承父类*/
+	text-decoration: none;
+	display:inline-block;
+	height:inherit;/*继承父类*/
+	color:#fff;
+	font-weight: 620;
+	font-family:”微软雅黑”;
+}
+
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0px 25px 30px  auto;
+        position: relative;	
+}
+
+#banner .inner h1{
+	margin-top:30px;
+	border-top: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+	padding:12px;
+	color: rgba(255,255,255,0.5);	
+}
+button{
+	border: none;
+	background: rgba(255,255,255,0.3);
+	color:#000;/*文字颜色*/
+	font-weight: 550;
+        padding:8px 20px;
+        margin-top: 85px;
+}
+.sub-heading{
+	line-height: 30px;
+	margin:40px auto;
+	font-size: 20px;
+	color:#000;
+	font-weight:700;
+}
+.logo{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	float:left;
+        color:red;
+    margin-left: 10px;
+   
+}
+.logo3{
+	color: #ff2e3d;
+	float:right;
+        padding:23px 10px 0 0;
+	margin-right: 10px;
+	font-family: 方正舒体;
+	font-size: 20px;
+	font-weight: 500;
+}
+.bgm{
+	
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#home{
+      margin: 0 auto;
+     opacity: 0.90;
+     width: 65%;
+     min-width: 1080px;
+     background-color: #fff;
+     padding: 30px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+/* 看板娘 */ 
+canvas#live2dcanvas {
+    border: 0 !important;
+    left: 0;
+}
+
+/* 雪花效果 */ 
+#Snow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgba(125,137,95,0.1);
+    pointer-events: none;
+}
+/* 去除广告*/
+#ad_t2,#cnblogs_c1,#under_post_news,#cnblogs_c2,#under_post_kb {
+    display:none; !important
+}
+/*页面图片悬浮*/
+/*
+.post img {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.post img:hover {
+    transform: scale(1.3);
+}  */
